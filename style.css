@@ -1,0 +1,40 @@
+/* Simple responsive portfolio styling */
+:root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#6ee7b7}
+*{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#e6eef6;background:linear-gradient(180deg,#071128 0%, #071727 100%)}
+.container{max-width:980px;margin:0 auto;padding:28px}
+.hero{padding:60px 0;text-align:center;background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent)}
+.hero h1{margin:0;font-size:2.2rem}
+.title{color:var(--muted);margin:6px 0 12px}
+.contact a{color:var(--accent);text-decoration:none}
+.cta{display:inline-block;margin:10px 8px;padding:12px 18px;background:var(--accent);color:#042022;border-radius:8px;text-decoration:none;font-weight:600}
+.secondary{display:inline-block;margin:10px 8px;padding:12px 18px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:#cfe8e0;text-decoration:none}
+main{padding:24px 0}
+h2{margin-top:0;border-left:4px solid rgba(255,255,255,0.03);padding-left:12px}
+p{line-height:1.5}
+.chips span{display:inline-block;background:rgba(255,255,255,0.03);padding:8px 12px;margin:6px;border-radius:20px;font-size:0.95rem;color:#dcebf0}
+.job{background:rgba(255,255,255,0.02);padding:14px;border-radius:8px;margin-bottom:12px}
+.muted{color:var(--muted);font-size:0.9rem}
+.small{font-size:0.85rem;color:var(--muted)}
+footer{padding:20px 0;color:var(--muted);text-align:center;border-top:1px solid rgba(255,255,255,0.02);margin-top:28px}
+form{display:grid;gap:10px;max-width:560px}
+input,textarea{padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:rgba(255,255,255,0.02);color:#e6eef6;outline:none;width:100%}
+button{padding:12px;border-radius:8px;border:none;background:var(--accent);color:#042022;font-weight:600}
+.note{color:var(--muted);font-size:0.9rem;margin-top:8px}
+
+/* Responsive */
+@media (max-width:640px){
+  .hero h1{font-size:1.6rem}
+  .container{padding:20px}
+}
+
+.project-card{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;background:rgba(255,255,255,0.02);padding:16px;border-radius:10px;margin-bottom:18px}
+.project-card img{max-width:320px;border-radius:8px}
+.project-info{flex:1;min-width:260px}
+.project-info h3{margin-top:0}
+
+
+.navbar{display:flex;gap:18px;padding:14px 28px;background:rgba(255,255,255,0.02);border-bottom:1px solid rgba(255,255,255,0.05)}
+.navbar a{color:#e6eef6;text-decoration:none;font-weight:500}
+.navbar a:hover{color:var(--accent)}
+.project-img{max-width:100%;margin:18px 0;border-radius:8px}
+.project-list{display:grid;gap:20px}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pankaj Belgaonkar — Cloud Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Pankaj Belgaonkar</h1>
+      <p class="title">Cloud Engineer • DevOps • Kubernetes</p>
+      <p class="contact">📞 +91 9769041339 · ✉️ <a href="mailto:panvic99@gmail.com">panvic99@gmail.com</a> · <a href="https://www.linkedin.com/in/pankaj-belgaonkar-529b32106" target="_blank" rel="noopener">LinkedIn</a></p>
+      <a class="cta" href="#contact">Hire me</a>
+      <a class="secondary" href="Pankaj_Belgaonkar_Resume.pdf.pdf" download>Download Resume (PDF)</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>Cloud Engineer with 8+ years of experience in cloud technologies, automation, and application deployments and maintenance. Expertise in Amazon Web Services (AWS), DevOps practices, and containerization using Docker and Kubernetes. Skilled in designing and implementing Infrastructure as Code (IaC) using Terraform and AWS CDK. Proficient in building CI/CD pipelines with Jenkins and automating cloud tasks using Python scripts.</p>
+      <p class="small">(Resume content sourced from uploaded resume.)</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>AWS</span><span>EC2</span><span>EKS</span><span>VPC</span><span>RDS</span><span>S3</span><span>Terraform</span><span>CDK</span><span>Jenkins</span><span>Docker</span><span>Kubernetes</span><span>Python</span><span>Typescript</span><span>New Relic</span>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience (Selected)</h2>
+      <article class="job">
+        <h3>AWS Senior Consultant — Capgemini</h3>
+        <p class="muted">January 2019 - Present</p>
+        <ul>
+          <li>Automated infrastructure deployment with Terraform, leading to a 35% reduction in provisioning time.</li>
+          <li>Implemented large-scale encryption for S3 buckets and used AWS Config, CloudWatch and CloudTrail for diagnostics.</li>
+          <li>Established WAF rules and configured secure S3 access via CloudFront.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Cloud Engineer — Capgemini</h3>
+        <p class="muted">June 2021 - September 2023</p>
+        <ul>
+          <li>Led migration of legacy Supply Chain application to AWS and developed IaC using CDK.</li>
+          <li>Built automation scripts using Python Boto to reduce manual intervention.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects">
+      <div class="project-card">
+        <img src="images/sample_project.png" alt="Sample project screenshot">
+        <div class="project-info">
+      <h2>Projects & Highlights</h2>
+      <ul>
+        <li>POC for Docker containerized application adopted by application team (25% deploy efficiency gain).</li>
+        <li>Enterprise architecture blueprints that accelerated project approval by ~15%.</li>
+        <li>Implemented CI/CD through Jenkins, reducing deployment time from 2 hours to 30 minutes.</li>
+      </ul>
+            </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you'd like to work together, email me at <a href="mailto:panvic99@gmail.com">panvic99@gmail.com</a> or call +91 9769041339.</p>
+      <form id="contactForm" onsubmit="return submitForm(event)">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send (demo)</button>
+      </form>
+      <p class="note">This form is a demo — it won't send email from this static build.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© Pankaj Belgaonkar — Built with ❤️ • Single-page static portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
